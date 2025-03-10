@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .menu-container{
+        display: none;
+    }
+
+    .side-menu-btn{
+        display: flex;
+        
+    }
+
+    .side-menu-btn img{
+        width: 30px;
+    }
+
+    .header{
+        position: sticky;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 100px;
+        background-color: none;
+        z-index: 9998;
+    }
+}
